@@ -25,9 +25,6 @@ errors = np.array([0.008, 0.15, 0.12, 0.18, 0.11, 0.22, 0.09])
 
 # ========== 创建图形（单栏宽度3.5英寸） ==========
 fig, ax = plt.subplots(figsize=(3.5, 3.5))
-
-# ========== 绘制散点图 ==========
-# 使用大号空心圆点（Nature风格偏好）
 scatter = ax.scatter(mass_numbers, abundances, 
                     s=80,                    # 点大小
                     c='#4C72B0',            # Nature蓝

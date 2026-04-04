@@ -19,8 +19,6 @@ rcParams['figure.dpi'] = 300
 
 # 设置随机种子以保证结果可重现
 np.random.seed(42)
-
-# 汞的稳定同位素及其天然丰度参考范围（用于模拟真实数据）
 mercury_isotopes = {
     '196Hg': {'typical_abundance': 0.15, 'unit': '%', 'color': '#4C72B0'},
     '198Hg': {'typical_abundance': 10.00, 'unit': '%', 'color': '#55A868'},
